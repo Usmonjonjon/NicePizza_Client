@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box__bloks{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+    
+}
+.box__bloks img{
+    width: 320px;
+}
+.blox1{
+    background-color: white;
+    border-radius: 10px;
+    width: 23%;
+    padding: 10px;
+}
+.blox1 img{
+    width: 100%;
+}
+.blox1 h3{
+    height: 60px;
+    display: flex;
+    font-size: 18px;
+}
+.blox1 p{
+    height: 60px;
+    display: flex;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.btn2 button{
+    width: 110px;
+    height: 50px;
+    border-radius: 8px;
+  background: #FF7010;
+  color: white;
+  font-size: 17px;
+  border: none;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(195, 82, 17, 0.723);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.menu__shop{
+    width: 65%;
+    height: 650px;
+    border: 1px solid white;
+    position: relative;
+    background: white;
+}
+.menu__shop button{
+    width: 40px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    font-size: 40px;
+    top: 0px;
+    right: 0px;
+}
+@media (max-width: 780px){
+    .blox1{
+        width: 32%;
+    }
+}
+@media (max-width: 450px){
+    .blox1{
+        width: 50%;
+    }
+}

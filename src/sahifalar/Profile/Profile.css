@@ -1,0 +1,147 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #fff;
+}
+label{
+  color: black;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.profile-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-nav button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.profile-nav button:hover {
+  background-color: #ff4500;
+}
+
+.profile-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.profile-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-section div {
+  margin-bottom: 15px;
+}
+
+.profile-section label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-section span {
+  display: block;
+  font-size: 16px;
+  color: #555;
+}
+
+.profile-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.profile-section button:hover {
+  background-color: #0056b3;
+}
+.profile-section1 {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.edit-button:hover {
+  color: #0056b3;
+}
+
+.profile-form {
+  display: none;
+}
+
+.profile-form.active {
+  display: block;
+}
+.x-btn{
+margin-left: 70%;
+}
+.edit-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+.edit div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.edit input{
+  padding: 10px 15px;
+}
+@media (max-width: 680px) {
+
+ .x-btn {
+  position: absolute;
+
+ }
+}
